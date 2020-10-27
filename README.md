@@ -15,7 +15,8 @@ with an exact poisson distribution
 You can install the released version of ratetest from GitHub with:
 
 ``` r
-install.packages("ratetest")
+# install.packages("devtools")
+devtools::install_github("lucavd/ratetest")
 ```
 
 ## Example
