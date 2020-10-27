@@ -19,3 +19,5 @@ Imports:
     tibble
 Suggests: 
     testthat
+URL: https://github.com/lucavd/ratetest
+BugReports: https://github.com/lucavd/ratetest/issues
