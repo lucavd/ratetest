@@ -1,3 +1,17 @@
+#' Test an event rate in two groups
+#'
+#' @param events_a number of events occurring the first group
+#' @param events_b number of events occurring in the second group
+#' @param y_person_a years (or months)-person for the first group
+#' @param y_person_b years (or months)-person for the second group
+#'
+#' @return a tibble
+#' @export
+#'
+#' @examples
+#' rate_test(5,8,182.8,165.1)
+
+
 rate_test <- function (events_a, events_b, y_person_a, y_person_b) {
 
   compare_rates <- rateratio.test::rateratio.test(c(events_a, events_b), c(y_person_a, y_person_b))

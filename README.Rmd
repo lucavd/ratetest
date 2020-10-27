@@ -1,0 +1,38 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ratetest
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of **ratetest** is to test if the rate of a event in two groups is significantly different, also calculating the 95% confidence interval with an exact poisson distribution
+
+## Installation
+
+You can install the released version of ratetest from GitHub with:
+
+``` r
+install.packages("ratetest")
+```
+
+## Example
+
+```{r example}
+library(ratetest)
+
+rate_test(5,8,182.8,165.1)
+```
