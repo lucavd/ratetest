@@ -14,8 +14,6 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
-    rateratio.test,
-    epitools,
     tibble
 Suggests: 
     testthat
